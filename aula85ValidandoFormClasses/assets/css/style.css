@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+    --primary-color: rgb(117,176,231);
+    --primary-color-darker: rgb(9, 68, 124);
+    
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0, 20;
+}
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+form button:hover {
+    background: var(--primary-color-darker)
+}
+.teste{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    line-height: 50px;
+}
+.relogio{
+    font-size: 2.5em;
+}
+.pausado {
+    color: red;
+}
+.input-tarefa, .apagar, .btn-tarefa{
+    border-radius: 7px;
+    padding: 4px;
+}
+.apagar{
+    margin-left: 30px;
+    width: 70px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+.btn-tarefa{
+    width: 140px;
+    font-size: 15px;
+}
+.btn-tarefa:hover{
+    background-color: rgb(215, 255, 218);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.input-tarefa, .btn-tarefa{
+    border: 2px solid black;
+}
+.input-tarefa:hover {
+    background-color: rgba(0, 170, 255, 0.156);
+    border: 3px solid black;
+}
+.apagar:hover{
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.225);
+}
+
+.error-text{
+    font-size: 13px;
+    color: red;
+}
+
