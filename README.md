@@ -1,2 +1,2 @@
-# curso
+# curso de Javascript, Node, Typescript
  
