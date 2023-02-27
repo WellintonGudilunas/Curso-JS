@@ -1,2 +1,2 @@
-# curso de Javascript, Node, Typescript e React
+# Curso de Javascript, Node, Typescript e React
  
